@@ -1,0 +1,267 @@
+body {
+  font-family: 'Press Start 2P',cursive;
+  font-size: 10px;
+  line-height: 150%;
+  background-color: black;
+  margin-left: 0;
+  margin-top: 0;
+  margin-right: 0;
+  text-align: center;
+}
+
+    .header {
+      padding-top: 1em;
+      padding-bottom: 1em;
+      background-color: white;
+    }
+    .headerlimit {
+      overflow-x: hidden;
+    }
+    .wrapper {
+      width: 500px;
+      height: 300px;
+      margin: auto;
+      margin-top: 5em;
+      margin-bottom: 30em;
+      position: relative;
+    }
+
+/* TEXT BOX */
+    .box1 {
+      color: white;
+      text-align: left;
+      background-color: none;
+      /* padding: 1%; */
+      width: 500px;
+      height: 300px;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      z-index: 2;
+      transition: 1s;
+    }
+          /* TEXT TRANSFORMS */
+          .box16am.textshift {
+            transform: translatey(100%);
+          }
+          .box17am.textshift {
+            transform: translatey(109%);
+          }
+          .box18am.textshift {
+            transform: translatey(109%);
+          }
+          .box19am.textshift {
+            transform: translatey(109%);
+          }
+          .box110am.textshift {
+            transform: translatey(109%);
+          }
+          .box11pm.textshift {
+            transform: translatey(109%);
+          }
+          .box13pm.textshift {
+            transform: translatey(109%);
+          }
+          .box14pm.textshift {
+            transform: translatey(109%);
+          }
+          .box15pm.textshift {
+            transform: translatey(109%);
+          }
+          .box16pm.textshift {
+            transform: translatey(109%);
+          }
+          .box17pm.textshift {
+            transform: translatey(109%);
+          }
+          .box18pm.textshift {
+            transform: translatey(109%);
+          }
+          .box19pm.textshift {
+            transform: translatey(109%);
+          }
+          .box110pm.textshift {
+            transform: translatey(109%);
+          }
+          .box111pm.textshift {
+            transform: translatey(109%);
+          }
+          .box11159pm.textshift {
+            transform: translatey(109%);
+          }
+
+
+/* ACTUAL TEXT */
+    .textbox {
+      color: white;
+      text-align: left;
+      background-color: none;
+      padding: 5%;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+    }
+
+/* PICTURE BOX */
+    .box2 {
+      width: 500px;
+      height: 300px;
+      margin-top: -300px;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+    }
+        .pic6am {
+          background-image: url(am6Bedit.jpg);
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+        .pic7am {
+          background-image: url(am7Bedit.jpg);
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+        .pic8am {
+          background-image: url(am8Cedit.jpg);
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: bottom;
+        }
+        .pic9am {
+          background-image: url(am9Aedit.jpg);
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+        .pic10am {
+          background-image: url(am10Aedit.jpg);
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+        .pic1pm {
+          background-image: url(pm1Bedit.jpg);
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+        .pic4pm {
+          background-image: url(pm4Bedit.jpg);
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+        .pic5pm {
+          background-image: url(pm5Aedit.jpg);
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+        .pic6pm {
+          background-image: url(pm6Bedit.jpg);
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+        .pic7pm {
+          background-image: url(pm7Aedit.jpg);
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+        .pic8pm {
+          background-image: url(pm8Aedit.jpg);
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+        .pic9pm {
+          background-image: url(pm9Bedit.jpg);
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+        .pic10pm {
+          background-image: url(pm10Aedit.jpg);
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+        .pic11pm {
+          background-image: url(pm11Cedit.jpg);
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+        .pic1159pm {
+          background-image: url(pm1159Aedit.jpg);
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+
+/* THE TOP COVER and BUTTON ANIMATION */
+    .cover {
+      background-color: white;
+      /* padding: 7em; */
+      width: 500px;
+      height: 300px;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      display: block;
+      transition: 2s;
+      position: absolute;
+    }
+
+              .time6am.open {
+                  transform: translateX(250%) rotate(720deg);
+              }
+
+              .time7am.open {
+                transform: translateX(-250%) rotateX(-720deg);
+              }
+
+              .time8am.open {
+                transform: translateX(250%) rotate(720deg);
+              }
+
+              .time9am.open {
+                transform: translateX(-250%) rotateX(-720deg);
+              }
+
+              .time10am.open {
+                transform: translateX(250%) rotate(720deg);
+                    }
+
+              .time1pm.open {
+                transform: translateX(-250%) rotateX(-720deg);
+                    }
+
+              .time3pm.open {
+                transform: translateX(250%) rotate(720deg);
+                    }
+
+              .time4pm.open {
+                transform: translateX(-250%) rotateX(-720deg);
+                    }
+
+              .time5pm.open {
+                transform: translateX(250%) rotate(720deg);
+                    }
+
+              .time6pm.open {
+                transform: translateX(-250%) rotateX(-720deg);
+                    }
+
+              .time7pm.open {
+                transform: translateX(250%) rotate(720deg);
+                    }
+
+                .time8pm.open {
+                  transform: translateX(-250%) rotateX(-720deg);
+                      }
+
+                .time9pm.open {
+                  transform: translateX(250%) rotate(720deg);
+                      }
+
+                .time10pm.open {
+                  transform: translateX(-250%) rotateX(-720deg);
+                      }
+
+                .time11pm.open {
+                  transform: translateX(250%) rotate(720deg);
+                      }
+
+                .time1159pm.open {
+                  transform: translateX(-250%) rotateX(-720deg);
+                      }
