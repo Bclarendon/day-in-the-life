@@ -17,6 +17,46 @@ body {
     .headerlimit {
       overflow-x: hidden;
     }
+
+    .navbar {
+      background: white;
+      padding: 2em;
+      color: black;
+      top: 0;
+      left: 0;
+      position: fixed;
+      z-index: 10;
+    }
+        .menubutton {
+          text-decoration: underline;
+        }
+        .menubutton:hover {
+          color: #ed0946;
+        }
+        .navmenu {
+          text-decoration: underline;
+          top: 4em;
+          left: 0;
+          padding: 1em;
+          color: black;
+          background: white;
+          position: fixed;
+          transition: 500ms;
+          transform: translateX(-100%);
+          z-index: 10;
+                }
+        .navmenu.powerplay {
+          transform: translateX(0%);
+
+        }
+        a {
+          color: black;
+        }
+        a:hover {
+          color: #ed0946;
+        }
+
+
     .wrapper {
       width: 500px;
       height: 300px;
@@ -112,8 +152,8 @@ body {
     }
 
 /* PICTURE BOX */
-    .box2:hover {
-    }
+    /* .box2:hover {
+    } COULDNT GET HOVER TO WORK ON PHOTOS TRIED ALL CLASSES */
 
     .box2 {
       width: 500px;
